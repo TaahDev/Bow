@@ -27,7 +27,9 @@ Note: The arrow script is solely for the rotation of the arrow, so if you want t
         Upper, Middle, Lower Line: Points for the line renderer.
         Line Renderer: Line Renderer of the Bow
 
+4. Make sure you **disable** "Use World Space" in your line renderer!
+
 If you want you can also use the Bow Prefab provided by me that has everything set up already.
 
-4. Done! If you have more questions, message me on twitter! :)
+5. Done! If you have more questions, message me on twitter! :)
 
