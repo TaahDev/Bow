@@ -16,8 +16,8 @@ Note: The arrow script is solely for the rotation of the arrow, so if you want t
 
 3. Setup everything in the Unity editor.
 
-        MinStrength: The minimum strength applied to the Projectile.
-        MaxStrength: "   maximum Strength "       "  "   "
+        MinStrength: The minimum force applied to the Projectile.
+        MaxStrength: "   maximum force "       "  "   "
         DrawTime: The time in seconds until the bow reaches full strength.
         DrawBackStrength: The strength of which the string will be pulled back (Visual)
         ProjectilePrefab: Projectile Prefab
