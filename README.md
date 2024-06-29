@@ -1,35 +1,38 @@
 
-# Bow
+# 🏹 Bow
 
-A Functional bow with procedural string for Unity.
+A functional bow with procedural string for unity.
 
 ![Alt Text](https://media.giphy.com/media/yRQE5hyZBTP5ntobNh/giphy-downsized-large.gif)
 
+## Features
 
-## Setup
-1. Add the Bow & Arrow Scripts into your project.
+- Procedural string using a line renderer
+- Dynamic projectile strength depending on the draw time
+- Easy to set up
 
-2. Drag the Bow script onto your bow and the Arrow script onto your arrow prefab. 
+
+## 📍 Setup
+
+- Add the `Bow` & `Arrow` scripts into your project.
+- Drag the `Bow` script onto your bow and the Arrow script onto your arrow prefab.
+
+> **Note**: The `Arrow` script is solely for the rotation of the arrow. If you want to use your own script, remove all the `Arrow` references in the `Bow` script.
 
 
-Note: The arrow script is solely for the rotation of the arrow, so if you want to use your own script just remove all the Arrow references in the Bow Script.
+- Setup everything in the unity editor.
+### 🗒️ Properties:
+- `MinStrength`: The minimum force applied to the Projectile.
+- `MaxStrength`: The maximum force applied to the Projectile.
+- `DrawTime`: The time in seconds until the bow reaches full strength.
+- `DrawBackStrength`: The strength of which the string will be pulled back (Visual)
+- `ProjectilePrefab`: Projectile Prefab
+- `ProjectilePoint`: The position at which the Projectile is being spawned
+- `ArrowRotation`: Default rotation of the arrow
+- `FpCam`: Your first person camera
+- `Upper, Middle & Lower Line`: Points for the line renderer.
+- `Line Renderer`: Line Renderer of the Bow
 
-3. Setup everything in the Unity editor.
+### ⚠️ Important!
 
-        MinStrength: The minimum force applied to the Projectile.
-        MaxStrength: "   maximum force "       "  "   "
-        DrawTime: The time in seconds until the bow reaches full strength.
-        DrawBackStrength: The strength of which the string will be pulled back (Visual)
-        ProjectilePrefab: Projectile Prefab
-        ProjectilePoint: The position at which the Projectile is being spawned
-        ArrowRotation: Default rotation of the arrow
-        FpCam: Your first person camera
-        Upper, Middle, Lower Line: Points for the line renderer.
-        Line Renderer: Line Renderer of the Bow
-
-4. Make sure you **disable** "Use World Space" in your line renderer!
-
-If you want you can also use the Bow Prefab provided by me that has everything set up already.
-
-5. Done! If you have more questions, message me on twitter! :)
-
+**Make sure you disable "Use World Space" option in your line renderer!**
