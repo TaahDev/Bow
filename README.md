@@ -5,7 +5,7 @@ A functional bow with procedural string for unity.
 
 ![Alt Text](https://media.giphy.com/media/yRQE5hyZBTP5ntobNh/giphy-downsized-large.gif)
 
-## Features
+## ✨ Features
 
 - Procedural string using a line renderer
 - Dynamic projectile strength depending on the draw time
