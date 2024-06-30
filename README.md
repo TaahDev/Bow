@@ -1,4 +1,3 @@
-
 # 🏹 Bow
 
 A functional bow with procedural string for unity.
@@ -11,7 +10,6 @@ A functional bow with procedural string for unity.
 - Dynamic projectile strength depending on the draw time
 - Easy to set up
 
-
 ## 📍 Setup
 
 - Add the `Bow` & `Arrow` scripts into your project.
@@ -19,8 +17,8 @@ A functional bow with procedural string for unity.
 
 > **Note**: The `Arrow` script is solely for the rotation of the arrow. If you want to use your own script, remove all the `Arrow` references in the `Bow` script.
 
-
 - Setup everything in the unity editor.
+
 ### 🗒️ Properties:
 - `MinStrength`: The minimum force applied to the Projectile.
 - `MaxStrength`: The maximum force applied to the Projectile.
@@ -40,6 +38,12 @@ A functional bow with procedural string for unity.
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+### 🚀 Things to Implement
+- [ ] Add more (dynamic) points to the line renderer
+- [ ] Clean up the scripts
+- [ ] Add easing types to the DrawTime (e.g., Sine, Cubic, etc.)
+- [ ] Add sound effects for drawing and releasing the bow
 
 ## 📄 License
 
